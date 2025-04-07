@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-   - cron: '0 */5 * * *' # 每4小时执行一次（私库每月500分钟运行时长，每天16分钟）
+  #schedule:
+   #- cron: '0 */5 * * *' # 每4小时执行一次（私库每月500分钟运行时长，每天16分钟）
   workflow_dispatch: 
 
 permissions:
